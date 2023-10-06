@@ -25,10 +25,29 @@
 
 /* cosas del main */
 
+/* Promos */
 
+.promos-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font_roboto);
+    font-size: var(--font-size-lg);
+    margin: 70px 0px 35px 0px;
+}
 
+.promos-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(374px, 1fr));
+    margin: 0rem 362px 105px 362px;
+}
 
+.promos-images{
+    width: 374px;
+    height: auto;
+}
 
+/* Promos */
 
 
 
