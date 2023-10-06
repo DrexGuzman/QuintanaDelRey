@@ -21,7 +21,7 @@
 .carousels-information-title {
     display: flex;
     justify-content: center;
-    font-family: var(--font_primary);
+    font-family: var(--font_roboto);
     font-size: var(--font-size-md);
     margin-bottom: 53px;
 
@@ -41,7 +41,8 @@
 .carousels-tittle {
     background: var(--primary_color);
     color: var(--white);
-    font-family: var(--font_primary);
+    font-family: var(--font_roboto);
+    font-size: var(--font-size-xl);
     display: flex;
     justify-content: center;
     height: 66px;
@@ -62,7 +63,7 @@
 .btn-inf {
     text-decoration: none;
     color: var(--white);
-    font-family: var(--font_primary);
+    font-family: var(--font_roboto);
     font-size: var(--font-size-nm)
 }
 

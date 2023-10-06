@@ -7,6 +7,9 @@
 .login{
  display: flex;
  width: 1rem;
+ font-family: var(--font_roboto);
+    font-size: var(--font-size-sm);
+    font-weight: 400;
 }
 
 .logo-user{
