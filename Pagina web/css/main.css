@@ -1,21 +1,19 @@
+/* abstracts */
+@import url(./abstracts/vars.css);
 
-@import url(./abstracts/_variables.css);
+/* Vendors */
+@import url(./vendors/normalize.css);
 
-@import url(./base/_base.css);
-@import url(./base/_typography.css);
+/* base */
+@import url(./base/base.css);
+@import url(./base/typography.css);
 
-@import url(./pages/_home.css);
+/* layout */
+@import url(./layout/header.css);
+@import url(./layout/navigation.css);
+@import url(./layout/footer.css);
 
-@import url(./vendors/_normalize.css);
-
-
-
-
-
-
-
-
-
-
-
-
+/* components */
+@import url(./components/components.css);
+/* pages */
+@import url(./pages/home.css);

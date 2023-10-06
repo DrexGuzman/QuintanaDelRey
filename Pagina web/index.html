@@ -22,42 +22,47 @@
 
 <body>
 
-    <header>
+    <header class="header">
 
-        <div>
-            <div>
-                <a href="">
+        <div class="header-red-bar">
+            <div class="header-ctn">
+                <a class="logo" href="">
                     <img src="./img/graphic-identifier.png" alt="graphic-identifier">
                 </a>
+
+                <nav class="navigation">
+                    <a class="navigation-link" href="">Home</a>
+                    <a class="navigation-link" href="">Product</a>
+                    <a class="navigation-link" href="">Restaurant</a>
+                    <a class="navigation-link" href="">Contact</a>
+            
+                    <a class="navigation-link login" href="">
+                        <img class="logo-user" src="./img/user.png" alt="user-logo">
+                         </a>
+                         <a class="login" href="">Login</a>
+                </nav>
             </div>
-            <nav>
-                <a href="">Home</a>
-                <a href="">Product</a>
-                <a href="">Restaurant</a>
-                <a href="">Contact</a>
-                <img src="./img/user.png" alt="user-logo">
-                <a href="">Login</a>
-            </nav>
         </div>
 
-        <div>
-            <h1>
+        <div class="banner">
+            <div class="mask">
+            <h1 class="bnr-title">
                 Welcome
             </h1>
-            <h4>
+            <h4 class="bnr-text">
                 It is a pleasure to offer our service.
                 ¡Conquering palates!
             </h4>
 
-            <a href="">Reserve now</a>
+            <a class="bnr-button bnr-fund" href="">Reserve now</a>
 
-
+        </div>
         </div>
 
     </header>
 
     <main>
-<!-- Promos -->
+        <!-- Promos -->
         <div>
             <h2>Promociones</h2>
             <section>
@@ -92,7 +97,7 @@
                 <img src="./img/..." alt="right-arrow">
             </div>
         </div>
-<!-- Categories -->
+        <!-- Categories -->
         <div>
             <div>
                 <h2>Categorias</h2>
@@ -112,7 +117,7 @@
                 </div>
             </div>
         </div>
-<!-- Find us -->
+        <!-- Find us -->
         <div>
             <img src="./img/..." alt="dish">
             <div>
@@ -132,19 +137,19 @@
         </div>
     </main>
 
-    <footer>
-        <div>
-            <div>
+    <footer class="footer">
+        <div class="footer-layout">
+            <div class="logo">
                 <a href="">
-                    <img src="./img/graphic-identifier.png" alt="graphic-identifier">
+                    <img class="logo-footer" src="./img/graphic-identifier.png" alt="graphic-identifier">
                 </a>
             </div>
 
-            <div>
-                <h2>
+            <div class="links">
+                <h2 class="footer-title">
                     about us
                 </h2>
-                <ul>
+                <ul class="footer-links">
                     <a href="">
                         <li>Reservation rules and policies</li>
                     </a>
@@ -167,7 +172,7 @@
                         <li>Download our mobile app</li>
                     </a>
                 </ul>
-                <div>
+                <div class="download-app">
                     <a href="">
                         <img src="./img/app-store.png" alt="app-store">
                     </a>
@@ -177,19 +182,19 @@
                 </div>
             </div>
 
-            <div>
+            <div class="ctn-form">
 
                 <form action="">
-                    <legend>write to us</legend>
-                    <input type="text" placeholder="Email Address">
-                    <input type="submit">
+                    <legend class="subtitle">write to us</legend>
+                    <input class="placeholder" type="text" placeholder="Email Address">
+                    <input class="submit" type="submit" value="">
                 </form>
 
-                <h4>
+                <h4 class="subtitle">
                     Search us in:
                 </h4>
 
-                <div>
+                <div class="footer-network">
                     <a href=""><img src="./img/facebook-link.png" alt="facebook"></a>
                     <a href=""><img src="./img/instagram-link.png" alt="instagram"></a>
                     <a href=""><img src="./img/whatsApp-link.png" alt="whatsApp"></a>
@@ -200,12 +205,16 @@
             </div>
 
 
-            <p>
-                © All rights reserved. Quintana del rey 2023
-            </p>
+            
 
         </div>
+
+        <p class="text-end">
+            © All rights reserved. Quintana del rey 2023
+        </p>
     </footer>
+
+    
 
 </body>
 
