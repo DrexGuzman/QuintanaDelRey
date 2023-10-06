@@ -43,10 +43,13 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(374px, 1fr));
     margin: 0rem 362px 105px 362px;
+    margin: 0 8rem;
+    column-gap: 4rem;
+    padding-left: 1rem;
 }
 
 .promos-images{
-    width: 374px;
+    width: 30.875rem;
     height: auto;
 }
 

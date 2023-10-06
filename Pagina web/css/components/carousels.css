@@ -30,7 +30,7 @@
 .carousels-parr {
     display: flex;
     justify-content: center;
-    font-family: var(--font_seconday);
+    font-family: var(--font_marcellus);
     margin-bottom: 50px;
 }
 
