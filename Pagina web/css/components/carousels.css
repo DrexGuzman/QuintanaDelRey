@@ -1,0 +1,92 @@
+.arrow {
+    height: 22px;
+    width: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.arrow-container {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.carousels-container {
+    display: flex;
+    margin: 70px 0px 70px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousels-information-title {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font_primary);
+    font-size: var(--font-size-md);
+    margin-bottom: 53px;
+
+}
+
+.carousels-parr {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font_seconday);
+    margin-bottom: 50px;
+}
+
+.information-container {
+    width: 576px;
+}
+
+.carousels-tittle {
+    background: var(--primary_color);
+    color: var(--white);
+    font-family: var(--font_primary);
+    display: flex;
+    justify-content: center;
+    height: 66px;
+    font-size: 15px;
+}
+
+.carousels-button {
+    background: var(--primary_color);
+    height: 59px;
+    width: 572px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+
+}
+
+.btn-inf {
+    text-decoration: none;
+    color: var(--white);
+    font-family: var(--font_primary);
+    font-size: var(--font-size-nm)
+}
+
+.carousels-image {
+    width: 345px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -45px;
+    top: -18px;
+}
+
+.image-mask {
+    border-radius: 50%;
+    width: 259px;
+    height: 256px;
+    overflow: hidden;
+}
+
+.carousels-image-container {
+    width: 576px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
