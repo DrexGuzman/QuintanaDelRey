@@ -30,16 +30,20 @@
 
 /* Promos */
 
+.promos-container{
+    margin: 4.375rem 0;
+}
+
 .promos-title{
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: var(--font_roboto);
     font-size: var(--font-size-lg);
-    margin: 70px 0px 35px 0px;
+    margin-bottom:35px;
 }
 
-.promos-container{
+.promos{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(374px, 1fr));
     margin: 0rem 362px 105px 362px;
@@ -54,6 +58,7 @@
 }
 
 /* Promos */
+
 
 
 
@@ -104,7 +109,17 @@
     cursor: pointer;
     position: absolute;
     right: 16rem;
-
-
 }
 
+/* categories html */
+
+.categories-container{
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(200px 1fr));
+}
+
+.categorie-mask-Appetizers{
+    border-radius: 50%;
+    overflow: hidden;
+    background: url(../../img/entrada.jpg);
+}
