@@ -117,11 +117,18 @@
 
 .categories-container{
     display: grid;
-    grid-template-columns: repeat(autofit, minmax(200px 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .categorie-mask-Appetizers{
     border-radius: 50%;
     overflow: hidden;
-    background: url(../../img/entrada.jpg);
+    width: 227px;
+    height: 227px;
+    background: #000;
+}
+
+.categories-image{
+    width: 200%;
+    height: auto;
 }
