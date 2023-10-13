@@ -33,6 +33,7 @@
     font-family: var(--font_titles);
     font-size: var(--font-size-xxl);
     font-weight: 700;
+    
 }
 
 .bnr-text{
@@ -41,6 +42,7 @@
     font-size: var(--font-size-md);
     font-weight: 400;
     margin: 2.5rem 0;
+    
 }
 
 .bnr-button{
@@ -58,4 +60,28 @@
 .bnr-fund{
     background: var(--secondary_color);
     border-radius: 2rem;
+}
+
+
+/* Pagina de Categorias  */
+
+.banner-platoFuerte{
+    background: url(../../img/banner-platoFuerte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 28rem;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.align{
+    display: grid;
+    align-content: center;
+   
+    padding-left: 9rem; 
+}
+
+.align-bnr-text{
+    max-width: 30rem;
 }

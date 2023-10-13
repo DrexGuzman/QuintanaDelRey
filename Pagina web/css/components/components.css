@@ -116,8 +116,15 @@
 /* categories html */
 
 .categories-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    justify-content: space-between;
+    margin: 2rem 9rem;
+
+
+    font-family: var(--font_roboto);
+    font-size: var(--font-size-md);
+    
 }
 
 .categorie-mask-Appetizers{
@@ -129,6 +136,15 @@
 }
 
 .categories-image{
-    width: 200%;
-    height: auto;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
 }
+
+.text-set{
+    font-weight: normal;
+    text-align: center;
+    padding-top: .6rem;
+}
+
+
