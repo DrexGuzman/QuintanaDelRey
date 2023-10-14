@@ -34,4 +34,5 @@
 .footer-network{
     display: flex;
     column-gap: 1.5rem;
+    padding-top: 1rem;
 }
