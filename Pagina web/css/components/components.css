@@ -190,3 +190,43 @@
     font-weight: bold; 
 }
 
+.ctn-btn-add{
+    background: var(--footer_color);
+    width: 100%;
+    margin: auto;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    color: var(--black);
+    font-family: var(--font_roboto);
+    font-size: var(--font-size-xl);
+    font-weight: 800;
+    background: var(--secondary_color);
+    border-radius: 5rem;
+    border-style: none;
+    cursor: pointer;
+
+    margin: 0 auto;
+    padding: .8rem;
+    width: 70rem;
+    height: 8rem;
+}
+
+.circle{
+    border-style: solid;
+    border-radius: 50%;
+    width: 5rem;
+    text-align: center;
+
+}
+
+
+

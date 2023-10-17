@@ -26,13 +26,12 @@
     font-family: var(--font_roboto);
     font-size: var(--font-size-md);
     padding: .5rem 1rem;
+    outline: none;
+    cursor: pointer;
 }
 
 /* detalles */
 
-.details-ctn{
-   
-}
 
 .accompaniment{
     margin: 4rem 9rem;
@@ -68,6 +67,7 @@
     background: var(--primary_color);
     border-radius: 2rem;
     border-style: none;
+    cursor: pointer;
 }
 
 .low-bar{
