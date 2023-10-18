@@ -62,6 +62,18 @@
     border-radius: 2rem;
 }
 
+.bnr-fund:hover{
+    background: rgb(214, 156, 40);
+    transition: 550ms;
+}
+
+.bnr-fund:active{
+    cursor: wait;
+    transition: 10000ms;
+}
+
+
+
 
 /* Pagina de Categorias  */
 
