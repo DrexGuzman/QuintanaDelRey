@@ -13,7 +13,7 @@
 }
 
 .arrow-container {
-    width: 120px;
+    width: 7.5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +45,7 @@
 }
 
 .information-container {
-    width: 576px;
+    width: 36rem;
 }
 
 .titles {
@@ -98,10 +98,14 @@
 }
 
 .carousels-image-container {
-    width: 576px;
+    width: 36rem;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.inf-carousels-container{
+    display: flex;
 }
 
 /* page platillos */
