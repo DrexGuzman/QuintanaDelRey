@@ -37,6 +37,16 @@
     padding-left: 1rem;
 }
 
+.cards-info:hover{
+    transform: scale(.950);
+    transition: 550ms;
+}
+
+.cards-info:active{
+    cursor: wait;
+    opacity: 0.4s;
+}
+
 .cards-info{
     
     border-radius: 3rem;
@@ -44,6 +54,7 @@
     max-width: 100%;
     max-height: 100%;
     position: relative;
+    transition: opacity 0.8s;
 
     display: flex;
     text-align: center;

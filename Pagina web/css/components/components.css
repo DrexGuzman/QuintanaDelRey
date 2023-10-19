@@ -55,9 +55,6 @@
     flex-flow: row nowrap;
     justify-content: flex-start;
     width: 300%;
-    
-    
-    
 }
 
 .ctn-img{
@@ -87,6 +84,11 @@
     border-radius: 50%;
     list-style: none;
     margin: 1rem;
+}
+
+.point:hover{
+    transform: scale(.9);
+    transition: 400ms;
 }
 
 .point--active{
@@ -159,6 +161,11 @@
     cursor: pointer;
 }
 
+.submit:hover{
+    transform: scale(.950);
+    transition: 400ms;
+}
+
 
 
 /* categories html */
@@ -168,12 +175,15 @@
     /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
     justify-content: space-between;
     margin: 4rem 9rem;
-
-
     font-family: var(--font_roboto);
     font-size: var(--font-size-md);
+}
 
-    
+.each-category:hover{
+    transform: scale(1.1);
+    transition: 350ms;
+    color: var(--black);
+    cursor: pointer;
 }
 
 .categorie-mask-Appetizers{
@@ -193,8 +203,11 @@
 .text-set{
     font-weight: normal;
     text-align: center;
+    font-weight: 500;
     padding-top: .6rem;
+    
 }
+
 
 
 
@@ -251,7 +264,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15rem;
+    gap: 10rem;
     color: var(--black);
     font-family: var(--font_roboto);
     font-size: var(--font-size-xl);
@@ -263,15 +276,23 @@
 
     margin: 0 auto;
     padding: .8rem;
-    width: 70rem;
-    height: 8rem;
+    width: 50rem;
+    height: 5rem;
+}
+
+.btn-add:hover{
+    transform: scale(.940);
+    transition: 700ms;
 }
 
 .circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-style: solid;
     border-radius: 50%;
-    width: 5rem;
-    text-align: center;
+    width: 3rem;
+    height: 3rem;
 
 }
 
