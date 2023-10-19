@@ -99,10 +99,13 @@ function moveCarouselDish(direction) {
   if (direction === 'arrow-right') {
     currentDish = (currentDish - 1 + carousels.length) % carousels.length;
   } else if (direction === 'arrow-left') {
+    currentDish = (currentDish + 1 - carousels.length ) % carousels.length;
+  } else if (direction === 'arrow-right') {
     currentDish = (currentDish + 1 - carousels.length) % carousels.length;
-
   }
 
   console.log("moveCarouselDish");
 }
+
+
 

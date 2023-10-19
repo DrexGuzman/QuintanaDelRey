@@ -66,6 +66,12 @@
     transition: transform 0.5s ease; 
 }
 
+.promos-images:hover{
+    transform: scale(.960);
+    transition: 500ms;
+    border-radius: 1rem;
+}
+
 .promos-images{
     width: 30.875rem;
     height: 25rem;
@@ -294,6 +300,11 @@
     width: 3rem;
     height: 3rem;
 
+}
+
+.dish-img:hover{
+    transform: rotate(214deg);
+    transition: 500ms;
 }
 
 

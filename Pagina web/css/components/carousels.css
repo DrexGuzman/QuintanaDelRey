@@ -3,7 +3,7 @@
     width: 3rem;
 }
 
-.arrow:hover{
+.arrow:hover {
     transform: scale(1.2);
 }
 
@@ -73,13 +73,13 @@
     border-radius: 40px;
 }
 
-.carousels-button:hover{
+.carousels-button:hover {
     background-color: rgb(154, 10, 22);
     transform: scale(.980);
     transition: 200ms;
 }
 
-.carousels-button:active{
+.carousels-button:active {
     cursor: wait;
     transition: 10000ms;
 }
@@ -116,51 +116,52 @@
     justify-content: center;
 }
 
-.inf-carousels-container{
+.inf-carousels-container {
     display: flex;
     width: 100%;
     max-width: 65%;
     overflow: hidden;
 }
 
-.carousel{
+.carousel {
     display: flex;
     justify-content: center;
+    transition: 2s;
 }
 
 /* page platillos */
 
-.arrow--tight{
+.arrow--tight {
     width: 3rem;
     height: 3rem;
 }
 
-.carousels-ctn-dishes{
+.carousels-ctn-dishes {
     display: flex;
     margin: 6.5rem 9rem;
     justify-content: center;
     gap: 8rem;
 }
 
-.ctn-carrousel-dish{
+.ctn-carrousel-dish {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding: 0 24rem;  
+    padding: 0 24rem;
 }
 
-.ctn-carrousel-dish:hover{
+.ctn-carrousel-dish:hover {
     transform: scale(.940);
     transition: 600ms;
 }
 
-.info-ctn{
+.info-ctn {
     display: flex;
     max-width: 65%;
     overflow: hidden;
-    width: 100%;
+    
 }
 
-.no-margin{
+.no-margin {
     margin-bottom: 1rem;
 }
