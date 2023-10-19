@@ -31,8 +31,22 @@
     row-gap: 1rem;
 }
 
+.footer-links > a:hover{
+    color: rgb(137, 137, 137);
+}
+
 .footer-network{
     display: flex;
     column-gap: 1.5rem;
     padding-top: 1rem;
+}
+
+.footer-network>a:hover{
+    transition: 400ms;
+    transform: scale(.950);
+}
+
+.download-app a img:hover{
+    transform: scale(.950);
+    transition: 400ms;
 }

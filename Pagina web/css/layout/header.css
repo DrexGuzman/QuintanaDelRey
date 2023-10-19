@@ -65,6 +65,7 @@
 .bnr-fund:hover{
     background: rgb(214, 156, 40);
     transition: 550ms;
+    transform: scale(.980);
 }
 
 .bnr-fund:active{
@@ -87,10 +88,16 @@
     margin-bottom: 0;
 }
 
+.mask-c{
+    position: absolute;
+    background-color: rgb(0 0 0 / 0.64);
+    width: 92.38%;
+    height: 100%;
+}
+
 .align{
     display: grid;
-    align-content: center;
-   
+    align-content: center; 
     padding-left: 9rem; 
 }
 

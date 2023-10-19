@@ -107,7 +107,7 @@
         width: 15rem;
         gap: 0;
         margin: 0rem 2rem;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .carousels-image-container {
@@ -137,11 +137,16 @@
         margin: 1.25rem auto;
         width: 10rem;
         align-items: center;
+        
     }
 
     .carousels-button {
         width: 12.5rem;
         margin: 0 auto;
+    }
+
+    .carousel{
+        display: grid;
     }
 
     /* carousels */
@@ -246,6 +251,7 @@
 
       .text-end {
         margin: 2.188rem 0px 0px;
+        font-size: .8rem;
       }
       
       
