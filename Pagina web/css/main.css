@@ -45,7 +45,7 @@
         font-size: var(--font-size-md);
         padding: 1rem;
     }
-      
+
 
     .bnr-text {
         font-size: var(--font-size-nm);
@@ -58,8 +58,8 @@
     }
 
     .logo {
-        margin: 0rem 2rem;
-        min-width: 6rem;
+        margin: 0rem 2rem 0rem 0rem;
+        width: 6rem;
     }
 
     .banner {
@@ -68,8 +68,79 @@
     }
 
     .navigation {
-        padding-top: 0rem;
+        flex-direction: column;
+        position: fixed;
+        left: 25rem;
+        z-index: 1;
+        background: rgba(20, 20, 20, 0.589);
+        height: 664px;
+        gap: 2.5rem;
+        top: 0rem;
+        width: 100px;
+        text-align: center;
+        transition: left 0.325s;
     }
+
+    .login{
+        margin-left: 2rem;
+    }
+
+    .mobile-check{
+        position: absolute;
+        opacity: 0%;
+        left: 21rem;
+        top: 2rem;
+        z-index: 3;
+    }
+    
+    .mobile-btn{
+        position: absolute;
+        opacity: 100%;
+        left: 20.6rem;
+        top: 2.3rem;
+        z-index: 3;
+    }
+
+    .mobile-btn>span,
+    .mobile-btn>span::before,
+    .mobile-btn>span::after {
+
+        display: block;
+        position: absolute;
+        width: 25px;
+        height: 0.2rem;
+        background: var(--secondary_color);
+        transition-duration: 0.25s;
+    }
+
+    .mobile-btn>span::before {
+        content: '';
+        top: -0.5rem;
+    }
+
+    .mobile-btn>span::after {
+        content: '';
+        top: 0.5rem;
+    }
+
+    .mobile-check:checked + .mobile-btn>span {
+        transform: rotate(45deg);
+    }
+
+    .mobile-check:checked + .mobile-btn>span::before {
+        top: 0;
+        transform: rotate(0deg);
+    }
+
+    .mobile-check:checked + .mobile-btn>span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+
+    .mobile-check:checked ~ .navigation {
+        left:18.2rem;
+    }
+
 
     /* header */
 
@@ -197,6 +268,10 @@
         margin: 1rem 2.188rem;
     }
 
+    .underline{
+        width: 16rem;
+    }
+
     /* find us */
 
     /* footer */
@@ -207,48 +282,53 @@
         flex-direction: column;
         padding: 0;
         align-items: baseline;
-      }
+    }
 
-      .footer-title {
+    .footer-title {
         padding: 0;
 
-      }
+    }
 
-      .footer-links{
+    .footer-links {
         padding-left: 0.9rem;
-      }
+    }
 
-      .logo{
-        margin: 0;
-      }
+    .logo-footer {
+        margin: 0px 0px 0px 1rem;
+        scale: 150%;
+    }
 
-      .ctn-form {
+    .ctn-form {
         padding-left: 0rem;
         margin-top: 2.188rem;
-      }
-      
-      .placeholder{
+    }
+
+    .placeholder {
         width: 18rem;
 
-      }
-      
-      .submit{
+    }
+
+    .submit {
         right: 2rem;
-      }
+    }
 
-      .dowload-app{
-        margin-top:2.188rem;
-      }
-
-      .links{
+    .dowload-app {
         margin-top: 2.188rem;
-      }
+    }
 
-      .text-end {
+    .links {
+        margin-top: 2.188rem;
+    }
+
+    .text-end {
         margin: 2.188rem 0px 0px;
-      }
-      
-      
+    }
+
+    .form{
+        width: 17.5rem;
+    }
+
+
 
     /* footer */
 

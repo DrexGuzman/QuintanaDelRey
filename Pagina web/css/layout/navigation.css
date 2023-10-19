@@ -48,90 +48,14 @@
   transition: 10000ms;
 }
 
-@media(max-width:767.98px) {
+.mobile-check{
+    position: absolute;
+    opacity: 0%;
+}
 
-    .mobile-btn {
-        position: fixed;
-        top: 4rem;
-        right: 2rem;
-        width: 1.5rem;
-        height: 1.5rem;
-        z-index: 3;
-    }
-
-    /* un objeto con la clase mobile-btn que contiene span */
-
-    .mobile-btn>span,
-    .mobile-btn>span::before,
-    .mobile-btn>span::after {
-
-        display: block;
-        position: absolute;
-        width: 100%;
-        height: 0.2rem;
-        background: var(--clr-main);
-        transition-duration: 0.25s;
-    }
-
-    .mobile-btn>span::before {
-        content: '';
-        top: -0.5rem;
-    }
-
-    .mobile-btn>span::after {
-        content: '';
-        top: 0.5rem;
-    }
-
-    /* Mobile check */
-
-    .mobile-check {
-
-        position: fixed;
-        top: 3.5rem;
-        right: 2.20rem;
-        z-index: 4;
-        opacity: 0;
-
-    }
-
-    /* animacion de las 3 barras */
-
-    .mobile-check:checked + .mobile-btn>span {
-        transform: rotate(45deg);
-    }
-
-    .mobile-check:checked + .mobile-btn>span::before {
-        top: 0;
-        transform: rotate(0deg);
-    }
-
-    .mobile-check:checked + .mobile-btn>span::after {
-        top: 0;
-        transform: rotate(90deg);
-    }
-
-    /* animacion dle nav */
-
-    .mobile-check:checked ~ .nav-list {
-        right:0;
-    }
-
-    .nav-list {
-        display: grid;
-        position: fixed;
-        margin: 0;
-        top: 0;
-        right: -20rem;
-        width: 50%;
-        height: 100vh;
-        background: var(--clr-black);
-        align-content: center;
-        text-align: left;
-        padding-left: 2rem;
-        z-index: 2;
-        transition: right 0.325s;
-    }
+.mobile-btn{
+    position: absolute;
+    opacity: 0%;
 }
 
 
