@@ -6,6 +6,7 @@ let position = 0;
 let currentIndex = 0;
 let currentDish =0;
 let interval;
+let intervalDish;
 
 function updateActivePoint() {
   point.forEach((e, i) => {
@@ -26,6 +27,20 @@ function autoAdvance() {
   let operation = position * -33.66;
   images.style.transform = `translateX(${operation}%)`;
   updateActivePoint();
+}
+
+function autoAdvanceDish() {
+  for (let i = 0; i < carousels.length; i++) {
+    carousels[i].style.transform = `translateX(${direction === 'arrow-right' ? '-' : ''}${100 * currentDish}%)`;
+  }
+
+  if (direction === 'arrow-right') {
+    currentDish = (currentDish - 1 + carousels.length) % carousels.length;
+  } else if (direction === 'arrow-left') {
+    currentDish = (currentDish + 1 - carousels.length ) % carousels.length;
+  } else if (direction === 'arrow-right') {
+    currentDish = (currentDish + 1 - carousels.length) % carousels.length;
+  }
 }
 
 
@@ -54,6 +69,7 @@ point.forEach((element, i) => {
 });
 
 interval = setInterval(autoAdvance, 5000);
+intervalDish = setInterval(autoAdvance, 5000);
 
 
 

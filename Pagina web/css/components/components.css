@@ -225,7 +225,6 @@
 
 .dish-information{
     display: flex; 
-   justify-content: space-between;
 }
 
 .dish-title{
@@ -270,7 +269,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10rem;
+    gap: 8rem;
     color: var(--black);
     font-family: var(--font_roboto);
     font-size: var(--font-size-xl);
@@ -282,7 +281,7 @@
 
     margin: 0 auto;
     padding: .8rem;
-    width: 50rem;
+    width: 48rem;
     height: 5rem;
 }
 

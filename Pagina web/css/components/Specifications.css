@@ -7,7 +7,7 @@
 
 .specifications-adjust{
     display: flex;
-    gap: 4rem ;
+    column-gap: 4rem ;
     align-items: center;
 }
 
@@ -16,6 +16,7 @@
     font-size: var(--font-size-xl);
     font-weight: bold;
     color: var(--white);
+    margin: 0;
 }
 
 .select{
@@ -28,6 +29,7 @@
     padding: .5rem 1.5rem;
     outline: none;
     cursor: pointer;  
+    margin: 0;
       
 }
 
@@ -63,19 +65,24 @@
 }
 
 .accompaniment-btn{
-    display: inline-block;
     color: var(--white);
     text-align: center;
-    padding: .8rem 4rem;
+    display: inline-block;
+
     text-transform: uppercase;
     font-family: var(--font_roboto);
     font-size: var(--font-size-lg);
     font-weight: 800;
-    background: var(--primary_color);
-    border-radius: 2rem;
-    border-style: none;
+    
     cursor: pointer;
 }
+
+.bg-button{
+    background: var(--primary_color);
+    border-radius: 2rem;
+    padding: .8rem 5rem;
+}
+
 
 .accompaniment-btn:hover{
     transform: scale(.940);
@@ -89,6 +96,7 @@
 }
 
 .quantity{
+    display: block;
     background: var(--primary_color);
     font-family: var(--font_roboto);
     font-size: var(--font-size-lg);
@@ -104,7 +112,7 @@
     font-family: var(--font_roboto);
     font-size: var(--font-size-xl);
     font-weight: bold;
-    margin: 2rem 10rem;
+    text-align: center;
 }
 
 .text-area{
