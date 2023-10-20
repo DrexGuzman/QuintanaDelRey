@@ -122,6 +122,11 @@
         width: 18.125rem;
     }
 
+    .point {
+        width: 1.5rem;
+        height: 1.4rem;
+    }
+
     /* carousels */
 
     /* categories */
@@ -355,6 +360,12 @@
         width: 41vw;
     }
 
+    .arrow{
+        width: 2rem;
+        height: 2rem;
+        max-width: 1.8rem;
+    }
+
     /*dish carusels*/
 
     .carousels-ctn-dishes {
@@ -544,6 +555,8 @@
         padding-left: 1rem;
     }
 
+    
+
     /* carousels */
 
 
@@ -641,6 +654,8 @@
         top: 9.7rem;
     }
 
+
+
     .cards-ctn {
         width: 80vw;
     }
@@ -668,6 +683,7 @@
     .location-text-container {
         margin: 0;
         width: 100vw;
+        padding: 2rem 0;
     }
 
     .location-text {
@@ -794,6 +810,7 @@
 
 
 
+    
 }
 
 /* Galaxy S22+*/
