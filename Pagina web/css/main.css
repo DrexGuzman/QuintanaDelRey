@@ -327,6 +327,12 @@
         padding-left: 1rem;
     }
 
+    .align {
+        width: 93.5vw;
+        padding-left: 4rem;
+    }
+
+
     .cards-container {
         margin: 2rem auto;
     }
@@ -360,10 +366,35 @@
         max-width: 1.8rem;
     }
 
+    /*dish carusels*/
+
+    .carousels-ctn-dishes {
+        margin: 6.5rem 4rem;
+        gap: 8rem;
+    }
+
+
+    .ctn-carrousel-dish {
+        padding: 0px 10rem;
+        margin: 0rem;
+        gap: 0rem 4rem;
+    }
+
+    .promos-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--font_roboto);
+        font-size: var(--font-size-lg);
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+      }
+      
 
 
 }
 
+/* iPhone 12/13 Pro Max, 14 Plus */
 @media(max-width:428px) {
 
 
@@ -655,11 +686,17 @@
         padding: 2rem 0;
     }
 
+    .location-text {
+        margin: 2rem 0rem;
+    }
+
     .location-paragraph {
         line-height: 1.5rem;
         text-align: justify;
-        margin: 1rem 2.188rem;
+        margin: 2rem 2.188rem;
     }
+
+
 
     .underline {
         width: 16rem;
@@ -759,13 +796,30 @@
         font-size: var(--font-size-md);
     }
 
+    /*dish carusels*/
+
+    .carousels-ctn-dishes {
+        gap: 0rem;
+        margin: 4rem 0rem;
+    }
+
+    .ctn-carrousel-dish {
+        padding: 0px 4rem;
+    }
+
+
+
+
     
 }
 
-/* Ready */
-
 /* Galaxy S22+*/
 @media(max-width:385px) {
+
+
+        .header {
+          width: 100vw;
+        }
 
     /* pagina platillos */
 
