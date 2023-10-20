@@ -1,6 +1,7 @@
 .arrow {
     height: 3rem;
     width: 3rem;
+    max-width: 2rem;
 }
 
 .arrow:hover {

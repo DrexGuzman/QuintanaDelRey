@@ -122,6 +122,11 @@
         width: 290px;
     }
 
+    .point {
+        width: 1.5rem;
+        height: 1.4rem;
+    }
+
     /* carousels */
 
     /* categories */
@@ -287,11 +292,11 @@
         margin: 1rem auto;
     }
 
-    .quantity{
-       margin: 0 auto;
+    .quantity {
+        margin: 0 auto;
     }
 
-    .btn-add{
+    .btn-add {
         margin: 0 1rem;
     }
 
@@ -338,17 +343,23 @@
         width: 16rem;
         height: 13rem;
         border-radius: 50%;
-      }
+    }
 
-      .categories-container {
+    .categories-container {
         margin: 4rem;
         gap: 2rem;
-      }
-      
-      .cards-ctn {
+    }
+
+    .cards-ctn {
         width: 41vw;
-      }
-      
+    }
+
+    .arrow{
+        width: 2rem;
+        height: 2rem;
+        max-width: 1.8rem;
+    }
+
 
 
 }
@@ -379,8 +390,8 @@
         align-content: center;
         width: 100vw;
         padding-left: 0rem;
-      }
-      
+    }
+
 
     .bnr-title {
         font-size: var(--font-size-md);
@@ -507,10 +518,13 @@
         width: 100vw;
         height: 9rem;
     }
-        .ctn-img {
-          column-gap: 1rem;
-          padding-left: 1rem;
-        }
+
+    .ctn-img {
+        column-gap: 1rem;
+        padding-left: 1rem;
+    }
+
+    
 
     /* carousels */
 
@@ -609,9 +623,11 @@
         top: 9.7rem;
     }
 
+
+
     .cards-ctn {
         width: 80vw;
-      }
+    }
 
     /* categories */
 
@@ -636,6 +652,7 @@
     .location-text-container {
         margin: 0;
         width: 100vw;
+        padding: 2rem 0;
     }
 
     .location-paragraph {
@@ -726,23 +743,23 @@
         grid-template-columns: repeat(2, 1fr);
         place-items: center;
         row-gap: 2rem;
-      }
+    }
 
-      .categories-image {
+    .categories-image {
         width: 40vw;
         height: 40vw;
-      }
-      
+    }
 
-      /* dish */
 
-      .btn-add{
+    /* dish */
+
+    .btn-add {
         margin: 0 1rem;
         gap: 2rem;
         font-size: var(--font-size-md);
     }
-      
 
+    
 }
 
 /* Ready */
@@ -752,7 +769,7 @@
 
     /* pagina platillos */
 
-    .btn-add{
+    .btn-add {
         margin: 0 1rem;
         gap: 1rem;
         font-size: var(--font-size-nm);
