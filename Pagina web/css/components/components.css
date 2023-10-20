@@ -5,9 +5,9 @@
 }
 
 .login{
- display: flex;
- width: 1rem;
- font-family: var(--font_roboto);
+    display: flex;
+    width: 1rem;
+    font-family: var(--font_roboto);
     font-size: var(--font-size-sm);
     font-weight: 400;
 }
@@ -47,7 +47,7 @@
     align-items: center;
     font-family: var(--font_roboto);
     font-size: var(--font-size-lg);
-    margin-bottom:35px;
+    margin-bottom:2.188rem;
 }
 
 .promos{
@@ -130,7 +130,7 @@
 .form{
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border: 2px solid var(--secondary_color);
+    border: 0.125rem solid var(--secondary_color);
     border-radius: 1.8rem;
     padding: .5rem 1rem;
     width: 20rem;
@@ -178,7 +178,6 @@
 
 .categories-container{
     display: flex;
-    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
     justify-content: space-between;
     margin: 4rem 9rem;
     font-family: var(--font_roboto);
@@ -195,8 +194,8 @@
 .categorie-mask-Appetizers{
     border-radius: 50%;
     overflow: hidden;
-    width: 227px;
-    height: 227px;
+    width: 14.188rem;
+    height: 14.188;
     background: #000;
 }
 

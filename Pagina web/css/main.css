@@ -39,7 +39,7 @@
 
 
     .header-ctn {
-        margin: 0px 3rem;
+        margin: 0rem 3rem;
         column-gap: 12rem;
     }
 
@@ -112,14 +112,14 @@
     }
 
     .carousels-parr {
-        margin-bottom: 50px;
-        width: 290px;
+        margin-bottom: 3.125rem;
+        width: 18.125rem;
         text-align: justify;
     }
 
     .carousels-button {
-        height: 59px;
-        width: 290px;
+        height: 3.688rem;
+        width: 18.125rem;
     }
 
     /* carousels */
@@ -364,7 +364,7 @@
 
 
     .ctn-carrousel-dish {
-        padding: 0px 10rem;
+        padding: 0rem 10rem;
         margin: 0rem;
         gap: 0rem 4rem;
     }
@@ -445,10 +445,10 @@
         left: 26.7rem;
         z-index: 1;
         background: rgba(20, 20, 20, 0.589);
-        height: 664px;
+        height: 41.5rem;
         gap: 2.5rem;
         top: 0rem;
-        width: 100px;
+        width: 6.25rem;
         text-align: center;
         transition: left 0.325s;
     }
@@ -481,7 +481,7 @@
 
         display: block;
         position: absolute;
-        width: 25px;
+        width: 1.563rem;
         height: 0.2rem;
         background: var(--secondary_color);
         transition-duration: 0.25s;
@@ -696,7 +696,7 @@
 
     .footer-layout {
         display: flex;
-        margin: 0px 2.5rem;
+        margin: 0rem 2.5rem;
         flex-direction: column;
         padding: 0;
         align-items: baseline;
@@ -713,7 +713,7 @@
     }
 
     .logo-footer {
-        margin: 0px 0px 0px 1rem;
+        margin: 0rem 0rem 0rem 1rem;
         scale: 150%;
     }
 
@@ -740,7 +740,7 @@
     }
 
     .text-end {
-        margin: 2.188rem 0px 0px;
+        margin: 2.188rem 0rem 0rem;
         font-size: .8rem;
     }
 
@@ -788,7 +788,7 @@
     }
 
     .ctn-carrousel-dish {
-        padding: 0px 4rem;
+        padding: 0rem 4rem;
     }
 
 
