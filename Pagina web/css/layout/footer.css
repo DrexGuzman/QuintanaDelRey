@@ -3,6 +3,7 @@
     background: var(--footer_color);
     padding-top: 4rem;
     padding-bottom: 2rem;
+    width: 100%;
 }
 
 .footer-layout{

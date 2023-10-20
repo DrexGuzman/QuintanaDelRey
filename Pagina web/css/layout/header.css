@@ -1,17 +1,23 @@
 
 .header{
-    margin: 0;
+    margin: 11rem 0 4rem 0;
     display: grid;
 }
 
 .header-red-bar{
     background: var(--primary_color);
-    padding: 1rem 0;
+
+    position: fixed ;
+    width: 100%;
+    border-bottom: 2px solid black;
+    top: 0;
+    z-index: 1;
 }
 
 .header-ctn {
     display: flex;
-    column-gap: 64rem;
+    
+    justify-content: space-between;
     
     margin: 0 9rem;
     
